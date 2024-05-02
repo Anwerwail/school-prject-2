@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصات وسائل التواصل الاجتماعي</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>منصات وسائل التواصل الاجتماعي</h1>
+    </header>
+    <main>
+        <section id="youtube">
+            <h2>يوتيوب</h2>
+            <img src="download.png" alt="شعار يوتيوب" class="platform-logo">
+            <p>يوتيوب هو منصة مشاركة الفيديو حيث يمكن للمستخدمين تحميل ومشاركة ومشاهدة الفيديوهات. تتضمن ميزاته:</p>
+            <ul>
+                <li>تحميل الفيديو والاستضافة</li>
+                <li>الاشتراك في القنوات</li>
+                <li>التعليق والإعجاب بالفيديو</li>
+                <li>توصيات الفيديو استنادًا إلى تفضيلات المستخدم</li>
+                <li>البث المباشر</li>
+                <li>خيارات التسويق للمبدعين</li>
+            </ul>
+            <button class="toggle-button" onclick="toggleSection('youtube-disadvantages')">العيوب</button>
+            <div id="youtube-disadvantages" class="hidden">
+                <h3>العيوب</h3>
+                <ul>
+                    <li>تعرض لمحتوى غير مناسب أو مضلل</li>
+                    <li>ضياع الوقت بسبب مشاهدة الفيديو بشكل مفرط</li>
+                    <li>الاحتمالية في التنمر الإلكتروني والتعليقات السلبية</li>
+                </ul>
+            </div>
+            <button class="toggle-button" onclick="toggleSection('youtube-tips')">نصائح للاستخدام المسؤول</button>
+            <div id="youtube-tips" class="hidden">
+                <h3>نصائح للاستخدام المسؤول</h3>
+                <ul>
+                    <li>كن حذرًا بالمحتوى الذي تشاهده وتحقق من مصداقيته</li>
+                    <li>حدد وقتك على الشاشة وأولويات أنشطتك الأخرى</li>
+                    <li>استخدم إعدادات الخصوصية للتحكم في من يمكنه التعليق على فيديوهاتك</li>
+                </ul>
+            </div>
+            <button class="toggle-button" onclick="toggleSection('youtube-addiction')">التعامل مع الإدمان</button>
+            <div id="youtube-addiction" class="hidden">
+                <h3>التعامل مع الإدمان</h3>
+                <ul>
+                    <li>تخصيص فترات زمنية محددة لمشاهدة الفيديوهات</li>
+                    <li>خذ استراحات وشارك في أنشطة دون اتصال بالإنترنت</li>
+                    <li>ابحث عن الدعم إذا وجدت نفسك غير قادر على السيطرة على استخدامك</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="instagram">
+            <h2>إنستجرام</h2>
+            <img src="gt.jpg" alt="شعار إنستجرام" class="platform-logo">
+            <p>إنستجرام هو منصة لمشاركة الصور ومقاطع الفيديو الاجتماعية. تشمل ميزاته:</p>
+            <ul>
+                <li>تحميل الصور ومقاطع الفيديو</li>
+                <li>قصص إنستجرام: منشورات مؤقتة للصور ومقاطع الفيديو</li>
+                <li>الرسائل المباشرة</li>
+                <li>رولز إنستجرام: محتوى فيديو قصير الشكل</li>
+                <li>IGTV: محتوى فيديو طويل الشكل</li>
+                <li>مرشحات وأدوات تحرير للصور ومقاطع الفيديو</li>
+                <li>صفحة استكشاف لاكتشاف محتوى جديد</li>
+            </ul>
+            <button class="toggle-button" onclick="toggleSection('instagram-disadvantages')">العيوب</button>
+            <div id="instagram-disadvantages" class="hidden">
+                <h3>العيوب</h3>
+                <ul>
+                    <li>زيادة الشعور بالنقص بسبب المحتوى المتنقى</li>
+                    <li>الاحتمالية في تشوه الصورة الجسدية السلبي بسبب المقارنة مع الآخرين</li>
+                    <li>التشتت عن التجارب الحقيقية في الحياة</li>
+                </ul>
+            </div>
+            <button class="toggle-button" onclick="toggleSection('instagram-tips')">نصائح للاستخدام المسؤول</button>
+            <div id="instagram-tips" class="hidden">
+                <h3>نصائح للاستخدام المسؤول</h3>
+                <ul>
+                    <li>حدد الوقت المستغرق في التمرير على الشاشة</li>
+                    <li>كن حذرًا من الأشخاص الذين تتابعهم وشكل قائمة تغذية إيجابية</li>
+                    <li>خذ استراحات وشارك في الأنشطة دون اتصال بالإنترنت</li>
+                </ul>
+            </div>
+            <button class="toggle-button" onclick="toggleSection('instagram-addiction')">التعامل مع الإدمان</button>
+            <div id="instagram-addiction" class="hidden">
+                <h3>التعامل مع الإدمان</h3>
+                <ul>
+                    <li>أوقف التنبيهات لتقليل التشتت</li>
+                    <li>حدد حدودًا زمنية لاستخدام إنستجرام</li>
+                    <li>ابحث عن الدعم إذا شعرت بعدم القدرة على السيطرة على استخدامك</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="facebook">
+            <h2>فيسبوك</h2>
+            <img src="gf.png" alt="شعار فيسبوك" class="platform-logo">
+            <p>فيسبوك هو منصة للتواصل الاجتماعي تسمح للمستخدمين بالاتصال بالأصدقاء والعائلة والمجتمعات. تشمل ميزاته:</p>
+            <ul>
+                <li>إنشاء وتخصيص الملف الشخصي</li>
+                <li>الاتصال بالأصدقاء والشبكات</li>
+                <li>التغذية الإخبارية للتحديثات من الأصدقاء والصفحات</li>
+                <li>مشاركة الصور ومقاطع الفيديو</li>
+                <li>المجموعات والفعاليات للتفاعل المجتمعي</li>
+                <li>Facebook Marketplace لشراء وبيع السلع</li>
+                <li>Facebook Messenger للرسائل والمكالمات الفيديوية</li>
+            </ul>
+            <button class="toggle-button" onclick="toggleSection('facebook-disadvantages')">العيوب</button>
+            <div id="facebook-disadvantages" class="hidden">
+                <h3>العيوب</h3>
+                <ul>
+                    <li>المخاوف من الخصوصية المتعلقة باستخدام البيانات الشخصية</li>
+                    <li>التعرض للأخبار الكاذبة والمعلومات الخاطئة</li>
+                    <li>التشتت عن المهام الإنتاجية</li>
+                </ul>
+            </div>
+            <button class="toggle-button" onclick="toggleSection('facebook-tips')">نصائح للاستخدام المسؤول</button>
+            <div id="facebook-tips" class="hidden">
+                <h3>نصائح للاستخدام المسؤول</h3>
+                <ul>
+                    <li>مراجعة وضبط إعدادات الخصوصية بانتظام</li>
+                    <li>كن نقديًا للمعلومات التي تصادفها</li>
+                    <li>حدد الوقت المستغرق على المنصة</li>
+                </ul>
+            </div>
+            <button class="toggle-button" onclick="toggleSection('facebook-addiction')">التعامل مع الإدمان</button>
+            <div id="facebook-addiction" class="hidden">
+                <h3>التعامل مع الإدمان</h3>
+                <ul>
+                    <li>ضع حدودًا وقم بتخصيص أوقات محددة لاستخدام فيسبوك</li>
+                    <li>اشترك في الأنشطة والهوايات دون اتصال بالإنترنت</li>
+                    <li>ابحث عن مساعدة احترافية إذا واجهت أعراض الإدمان</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 منصات وسائل التواصل الاجتماعي. جميع الحقوق محفوظة.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
